@@ -1,0 +1,128 @@
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: rgb(107, 136, 149);
+    /* background-color: rgb(129, 162, 182); */
+    /* background-color: rgb(12, 109, 93); */
+    opacity: 0.9;
+    margin: 0;
+    /* text-align: center; */
+  }
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    align-content: center;
+    align-items: center;
+}
+
+nav {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+ul img {
+    height: 40px;
+}
+
+/* Intro  */
+
+#intro {
+    text-align: center;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    /* width: 100%; */
+}
+
+
+#description {
+    width: 50%;
+    /* float: left; */
+    height: 600px;
+    margin: 0px auto;
+}
+
+#photo{
+    /* float: right; */
+    width: 50%;
+    height: 42rem;
+    /* border: 1px solid black; */
+}
+
+#photo img {
+    height:100%;
+    margin: auto;
+    max-width: 100%;
+    display: block;
+}
+
+/* Projects */
+
+#projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project {
+	--x: 50%;
+	--y: 50%;
+	
+	/* position: relative; */
+	appearance: none;
+	padding: 1em 2em;
+	color: white;
+	cursor: pointer;
+	outline: none;
+	border-radius: 50px;
+    height: 20rem;
+    width: 20rem;
+    
+	
+	// The magic
+	border: 2px solid transparent;
+	background: linear-gradient(#000, #000) padding-box, 
+                radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #845EC2) 
+                border-box;
+}
+
+.project img {
+    height:100%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+}
+
+
+
+/* Color Combos
+
+Light Grey #D3D3D3 + Blush Pink #FE828C
+Graphite Grey #53565B + Dark Orange #FFC00
+Pale Brown #987654 + Tea Green #D0F0C0 */
