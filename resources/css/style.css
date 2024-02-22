@@ -4,7 +4,8 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
-    background-color: rgb(107, 136, 149);
+    background-color: #53565B;
+    /* background-color: rgb(107, 136, 149); */
     /* background-color: rgb(129, 162, 182); */
     /* background-color: rgb(12, 109, 93); */
     opacity: 0.9;
@@ -61,9 +62,12 @@ main {
 
 #description {
     width: 50%;
-    /* float: left; */
+    padding: 0px 1rem;
     height: 600px;
     margin: 0px auto;
+    background-color: #DC4D01;
+    border-radius: 0.5rem;
+    border: 0.5rem inset white;
 }
 
 #photo{
@@ -78,6 +82,8 @@ main {
     margin: auto;
     max-width: 100%;
     display: block;
+    border-radius: 0.35rem;
+    border: 0.25rem ridge white;
 }
 
 /* Projects */
@@ -104,9 +110,10 @@ main {
 	
 	// The magic
 	border: 2px solid transparent;
-	background: linear-gradient(#000, #000) padding-box, 
+	/* background: linear-gradient(#000, #000) padding-box, 
                 radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #845EC2) 
-                border-box;
+                border-box; */
+    background-color: #DC4D01;
 }
 
 .project img {
@@ -124,5 +131,5 @@ footer {
 /* Color Combos
 
 Light Grey #D3D3D3 + Blush Pink #FE828C
-Graphite Grey #53565B + Dark Orange #FFC00
+Graphite Grey #53565B + Dark Orange #DC4D01
 Pale Brown #987654 + Tea Green #D0F0C0 */
