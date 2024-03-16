@@ -28,12 +28,12 @@ nav {
     font-weight: bold;
 }
 
-ul {
+header ul {
     list-style: none;
     padding-top: 10px;
 }
 
-li {
+header li {
     display: inline-block;
     padding: 5px;
 }
@@ -84,6 +84,15 @@ main {
     display: block;
     border-radius: 0.35rem;
     border: 0.25rem ridge white;
+}
+
+main ul {    
+    list-style: square;
+}
+
+main li {
+    display: inline-block;
+    padding: 1rem;
 }
 
 /* Projects */
